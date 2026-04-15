@@ -1,0 +1,48 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.npm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fine-tuning
+fine-tuning/
+fine_tuning/
+
+# Logs
+*.log
+/tmp/
+
+# Data files (large raw text — tracked via .gitkeep)
+data/filings_10k/*.txt
+data/filings_10q/*.txt
+data/filings_8k/*.txt
+data/transcripts/*.txt
+data/transcripts/*.json

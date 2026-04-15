@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python scripts/create_tables.py)",
+      "Bash(python *)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(curl -s http://localhost:8000/api/companies)",
+      "Bash(curl *)",
+      "Bash(cmd *)",
+      "Bash(rm C:/Users/shrut/Desktop/checkitanalytics/frontend/.gitkeep)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --use-npm --no-eslint --no-src-dir --no-import-alias)",
+      "Bash(npm run *)",
+      "Bash(netstat -ano)",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -I{} python -c \"import subprocess; subprocess.run\\(['taskkill', '/PID', '{}', '/F'], shell=True\\)\")",
+      "Bash(wmic process *)"
+    ]
+  }
+}
